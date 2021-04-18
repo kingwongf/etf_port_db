@@ -2,11 +2,12 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
-  - numpy
-  - quandl
-  - yfinance
-  - matplotlib
-  - requests
-  - pandas
-  - voila
-  - voila-gridstack
+  - pip:
+    - numpy
+    - quandl
+    - yfinance
+    - matplotlib
+    - requests
+    - pandas
+    - voila
+    - voila-gridstack
